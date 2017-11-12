@@ -6,12 +6,117 @@ html
 		meta(http-equiv='X-UA-Compatible', content='IE=edge')
 		meta(name='description' content="meta desc")
 		meta(name='viewport' content='width=device-width, initial-scale=1.0')
+		link(href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,900" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet")
+		
 		link(rel="stylesheet", type="text/css", href="css/main.css")
 
 	body
+		header.page-header 
+			h1.mobile-logo
+				a(href="#")
+					img(src="img/emotify.svg")
+			.open
+				img(src="img/menu.svg")
 
-		//- put your content here
-		img(src="img/fast-logo.png" alt="Fast")
-		h1 It Works!!
+			nav.header-menu
+				.close
+					img(src="img/close.svg")
+				
+				ul.menu
+					li 
+						a(href="#") how it works
+					li 
+						a(href="#") contact
+					li 
+						a(href="#") blog
+					li 
+						a.button.sm.outline(href="#") sign up for free
 
+					h1.logo
+						a(href="#")
+							img(src="img/emotify.svg")
+
+			.filter
+			.content
+				h1.title Emotions speaks louder than events and page views
+				h3.subtitle Understand your user's emotions and build lovely products with this next-generation analytics.
+				
+				button.button.full.purple.lg Sign up for beta
+				button.button.outline.purple.lg How it works 
+				
+		.system-stats
+			.stat
+				h2.number 102.232+ 
+				h3.legend analyzed users
+			.stat
+				h2.number 213.151+ 
+				h3.legend recorded sessions
+			.stat
+				h2.number 100+
+				h3.legend tracked pages
+		
+		.core-info
+			.collect
+				img(src="img/collect.svg")
+				h2 We collect interactions
+				p In order to understand which feelings prevails on your e-commerce, we watch in real time how users interact with the website. Then, we classify the impact of your pages on the user’s emotions
+
+			.process
+				img(src="img/process.svg")
+				h2 We identify patterns
+				p Through an artificial inteligence algorithm able to find patterns in the user behavior, we measure basic feelings like trust, fear, interest or hesitation for each session.
+				
+			.results
+				img(width="220px" src="img/results.svg")
+				h2 We deliver smart information
+				p What about start a mailing campaign with hesitant users, or customize your website according to the visitor's feelings? We provide the output you need to potentiate your sales!.
+		
+		.subscribe-section
+			.filter
+			.content
+				h3 Want to be part of next generation analytics?
+				button.button.full.purple.lg Request your free invitation now!
+				button.button.outline.purple.lg Know more about us
+				
+		.subscribe-bar 
+			.call
+				h3 Want to be part of next generation analytics?
+				h2 Request your free invitation now!
+			.close 
+				img(src="img/close.svg")
+			
+			.form 
+				.input 
+					.label Name
+					.input
+						input
+
+				.input 
+					.label Email
+					.input
+						input
+
+				.input 
+					.label URL
+					.input
+						input
+
+				.select
+						.label Monthly Pageviews
+						select#f-pageviews(class="lg")
+							option(value="25000") <25.000
+							option(value="150000") <150.000
+							option(value="50000") <500.000
+							option(value="1000000") <1M
+							option(value="3000000") <3M
+							option(value="5000000") 5M>
+						
+		//.product-demonstration
+			.print 
+				img(src="img/print.png")
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quibusdam eaque maxime debitis, ea non facilis, iste odit illo quas placeat voluptates fugiat earum dolore explicabo reprehenderit minus incidunt harum.
+		
+		script(type="text/javascript", src="js/jquery.min.js")
 		script(type="text/javascript", src="js/main.js")
+		

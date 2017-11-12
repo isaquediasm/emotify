@@ -1,0 +1,21 @@
+full-button(bg = #fff, tc = #8772d3) 
+  background-color bg
+  border 2px solid bg
+  color tc
+
+  &:hover 
+    background-color lighten(bg, 30%)
+
+outline-button(bg = #fff, tc = #8772d3)
+  background none 
+  border 2px solid bg
+  color #fff
+  
+  &:hover
+    full-button(bg, tc)
+
+transition()
+  transition all .5s cubic-bezier(0, 1, 0.5, 1)
+
+bg-gradient(color1 = #47AEFF, color2 = #7299D3, color3 = #8772d3, color4 = #7B67C3) 
+  background-image linear-gradient(80deg, color1, color2, color3, color4)

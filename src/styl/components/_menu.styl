@@ -1,0 +1,78 @@
+.header-menu 
+  position relative
+  z-index 5
+  color #fff
+  margin-top 30px
+  width 85%
+  margin 0 auto
+  transform translateZ(0)
+  transition()
+
+  .close 
+    display none 
+    
+  &.show 
+    top 0%
+
+  @media $mobile_breakpoint 
+    top -100%
+    position absolute
+    width 100%
+    height 100%
+    background-image: linear-gradient(80deg,#47AEFF,#7299D3,#8772d3,#7B67C3)
+    z-index 999
+    overflow hidden
+    
+    .close 
+      display block
+      margin 30px
+      float right 
+
+      img 
+        width 45px
+
+  .logo 
+    position relative 
+    width 70px 
+    height 70px 
+    background #fff
+    border-radius 50%
+    text-align center 
+    float right
+    margin-top -20px
+
+    img 
+      width 40px
+      margin-top 15px
+
+    @media $mobile_breakpoint 
+      display none 
+
+  .menu 
+    list-style none
+    float right
+    margin-top 50px
+    
+    @media $mobile_breakpoint 
+      position absolute
+      float none
+      width 100%
+      left 50%
+      top 35%
+      transform translate(-50%, -50%)
+      text-align center
+
+      .button
+        padding 20px 50px
+        font-size 20px
+      
+    li 
+      display inline
+      font-weight 400
+      margin-right 30px
+      font-size 18px
+
+      @media $mobile_breakpoint 
+        display block
+        font-size 35px
+        margin-bottom 30px

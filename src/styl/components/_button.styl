@@ -1,0 +1,29 @@
+.button 
+  background inherit
+  border inherit
+  border-radius 50px
+  text-transform uppercase
+  font-weight 700
+  transition .4s all
+
+  &.full
+    &.white
+      full-button()
+    &.purple
+      full-button(#534DB7, #fff)
+
+
+  &.outline 
+    outline-button()
+
+  &.lg 
+    padding 20px 50px
+
+  &.sm 
+    padding 10px 30px
+    font-size 15px
+
+  @media $mobile_breakpoint 
+    width 100%
+    height 60px
+  

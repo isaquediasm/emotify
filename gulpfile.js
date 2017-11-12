@@ -39,7 +39,12 @@ gulp.task('copy', function() {
 
 // Call Uglify and Concat JS
 gulp.task('js', function () {
-    return gulp.src('src/js/**/*.js')
+    return gulp.src([
+            'src/js/jquery.min.js',
+            'src/js/particles.min.js',
+            'src/js/main.js',
+            'src/js/**/*.js'
+        ])
         .pipe(plumber())
         .pipe(concat('main.js'))
         .pipe(gulpif(env.p, uglify()))

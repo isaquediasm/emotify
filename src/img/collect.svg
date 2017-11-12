@@ -1,0 +1,31 @@
+<svg width="153" height="161" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="163" width="155" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_25" d="m71,89l-9,41.5" opacity="0.5" fill-opacity="null" stroke-width="null" stroke="#aba9e5" fill="none"/>
+  <path id="svg_24" d="m19,74l51,6.5l47,15" opacity="0.5" fill-opacity="null" stroke-width="null" stroke="#aba9e5" fill="none"/>
+  <path stroke="#aba9e5" id="svg_23" d="m24,71l27,-31.5l20,41l29,-38l13,49l-54,37l-35,-21l48,-21" opacity="0.5" fill-opacity="null" fill="none"/>
+  <path id="svg_21" d="m121,149l-7,-52.5l28,-63l-47,11l-48,-3l-28,-28" opacity="0.5" stroke="#aba9e5" fill="none"/>
+  <path id="svg_20" d="m21,15c1,0 -2,58 -2,57.5c0,0.5 3,40.5 3,40c0,0.5 -15,37.5 -14,37.5c1,0 51,-19 51,-19.5c0,0.5 63,18.5 63,18" opacity="0.5" stroke="#aba9e5" fill="none"/>
+  <ellipse ry="5" rx="5" id="svg_1" cy="40" cx="50" stroke-width="0" stroke="#000" fill="#9f9cd8"/>
+  <ellipse stroke="#000" ry="12" rx="12" id="svg_6" cy="12" cx="23" stroke-width="0" fill="#534db7"/>
+  <ellipse stroke="#000" ry="8" rx="8" id="svg_7" cy="73" cx="20" stroke-width="0" fill="#8581c1"/>
+  <ellipse stroke="#000" ry="10" rx="10" id="svg_8" cy="84" cx="71" stroke-width="0" fill="#6a66b7"/>
+  <ellipse stroke="#000" ry="7" rx="7" id="svg_9" cy="95" cx="115" stroke-width="0" fill="#aaa7e8"/>
+  <ellipse stroke="#000" ry="12" rx="12" id="svg_11" cy="149" cx="121" stroke-width="0" fill="#534db7"/>
+  <ellipse stroke="#000" ry="8" rx="8" id="svg_12" cy="130" cx="60" stroke-width="0" fill="#908ed1"/>
+  <ellipse ry="5" rx="5" id="svg_13" cy="43" cx="98" stroke-width="0" stroke="#000" fill="#9f9cce"/>
+  <ellipse stroke="#000" ry="10" rx="10" id="svg_14" cy="31" cx="143" stroke-width="0" fill="#6763b7"/>
+  <ellipse stroke="#000" ry="7" rx="7" id="svg_15" cy="110" cx="22" stroke-width="0" fill="#706cb7"/>
+  <path id="svg_17" d="m22,19" opacity="0.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#534db7"/>
+  <path id="svg_18" d="m25,14" opacity="0.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#534db7"/>
+  <ellipse stroke="#000" ry="10" rx="10" id="svg_19" cy="148" cx="10" stroke-width="0" fill="#534db7"/>
+ </g>
+</svg>
